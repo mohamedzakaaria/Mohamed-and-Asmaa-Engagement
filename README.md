@@ -1,26 +1,26 @@
-#  👰‍♀️🤵‍♂️ My Wedding e-card 
+# 💍 Mohamed & Asmaa Engagement
 
-<p align="center">
-  <img src="assets/readme.gif" alt="Valeria y Luciano">
-</p>
+Welcome to our engagement invitation website! ❤️
 
-<p align="center">
-🔗 https://lucianofedericopereira.github.io/my-wedding
-</p>
+## 🌐 Live Website
 
-This repository showcases the wedding e-card I designed and developed entirely in HTML, CSS, and vanilla JavaScript. 
+https://mohamedzakaaria.github.io/Mohamed-and-Asmaa-Engagement/
 
-### Overview
+## 📅 Engagement Date
 
-My goal was to create a unique and personal digital invitation that reflects the joy of our special day while ensuring seamless performance and a responsive design. 
+**15 August 2026**
 
-### Key Features
+## 📍 Venue
 
-- **Responsive Design**: Ensures beautiful rendering across various devices and screen sizes.
+**Rove Lounge**
 
-- **Custom CSS Animations**: Achieves a delicate falling petals effect through pure CSS, enhancing the visual experience without relying on any external libraries.
+## 💖 About
 
-- **Vanilla JavaScript**: Implements all interactivity using modern, efficient JavaScript techniques, avoiding jQuery to maintain a lightweight footprint.
+This website was customized as a digital engagement invitation for Mohamed & Asmaa.
 
+Built with:
+- HTML
+- CSS
+- JavaScript
 
-Credits: Top Flowers and concept inspiration from vinitshahdeo repo.
+Thank you for visiting! 🤍
