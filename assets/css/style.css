@@ -186,26 +186,20 @@ footer {
     margin: 0 2rem;
 }
 
-.horario div {
+.horario > div {
     flex: 50%;
     min-height: 60px;
     font-size: 13px;
 }
 
-.horario div:first-of-type::before,
-.horario div+div a::before {
-    content: "\231A";
-    padding-top: 7px;
-    font-size: 25px;
-    width: 100%;
-    display: block;
-    filter: grayscale(90%);
+.horario .item div {
+    min-height: auto;
+    margin: 2px 0;
 }
 
+.horario div:first-of-type::before,
 .horario div+div a::before {
-    padding-top: 0px;
-    font-size: 32px;
-    content: "\01F696";
+    content: none;
 }
 
 .horario a:hover::before {
@@ -888,4 +882,78 @@ footer {
 
 .sakura-falling {
     position: sticky
+}
+
+.subtitle {
+    font-size: 17px;
+    font-weight: 500;
+    color: #0a0a0a;
+}
+
+.horario {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 2rem;
+}
+
+.horario .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.horario .item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.horario i {
+    font-size: 30px;
+    color: #6d5da9;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 22px;
+}
+
+.time {
+    font-size: 18px;
+}
+
+.location-text {
+    font-size: 15px;
+}
+
+/* Move the whole section down */
+.horario {
+    margin-top: 20px;
+}
+
+/* Calendar & Location icons */
+.horario i {
+    font-size: 34px;
+    color: #6d5da9;
+    margin-bottom: 12px;
+}
+
+/* Date & Time */
+.horario .item div {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* View Location */
+.location-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#time {
+    margin-top: 15px;
 }
