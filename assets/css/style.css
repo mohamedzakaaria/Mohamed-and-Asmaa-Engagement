@@ -958,3 +958,11 @@ footer {
 #time {
     margin-top: 15px;
 }
+
+.engagement-subtitle {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0a0a0a;
+    margin-left: .75rem;
+}
