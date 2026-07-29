@@ -199,7 +199,8 @@ footer {
 
 .horario div:first-of-type::before,
 .horario div+div a::before {
-    content: none;
+    display: none !important;
+    content: none !important;
 }
 
 .horario a:hover::before {
